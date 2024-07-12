@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <title>{% block title %}{% endblock %}</title>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navbar-brand">
+            <a href="/" class="navbar-title" id="title">TuanGPT</a>
+        </div>
+
+        <div class="navbar-item" id="navbar-item">
+            <a class="nav-item nav-link" id="home" href="/">Home</a>
+            <a class="nav-item nav-link" id="predict-next-word" href="/predict-next-word">Predict next word</a>
+            <a class="nav-item nav-link" id="chatbot" href="/chatbot">Chatbot</a>
+            <a class="nav-item nav-link" id="resume-screening" href="/resume-screening">Resume screening</a>
+        </div>
+    </nav>
+    <div>
+        {% block content %}
+        {% endblock %}
+    </div>
+</body>
+</html>

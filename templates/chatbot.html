@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+
+{% block title %}Chatbot{% endblock %}
+
+{% block content %}
+<div class="predict-container">
+    <h1>QA CHATBOT</h1>
+    <form action="{{ url_for('chatbot')}}" method="post">
+        <textarea name="user_input_cb" class="input-field" placeholder="Ask me a question"></textarea>
+        <br>
+        <button type="submit" class="submit-button">Submit</button>
+    </form>
+    <p>
+        <span>{{ text_cb }}</span>
+    </p>
+</div>
+{% endblock %}

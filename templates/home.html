@@ -1,0 +1,36 @@
+{% extends "base.html" %}
+
+{% block title %}Home{% endblock %}
+
+{% block content %}
+<div class="home-container">
+    <div class="welcome-text">
+        <div style="color: rgb(58, 128, 56);font-size: 40px; margin-top: 40px; font-weight: bold; margin-bottom: 30px;">TuanGPT<div style="font-size: 30px; margin-top: 0px;color: rgb(0, 0, 0); margin-left: 5px;">AI assistant</div></div>
+        <p>
+            <div style="font-weight: bold; color: rgb(0, 0, 0);">About</div>
+            TuanGPT is an innovative application designed to streamline tasks with three core features: predicting 
+            the next word, providing chatbot interactions, and screening resumes.
+        </p>
+
+        <p>
+            <div style="font-weight: bold; color: rgb(0, 0, 0);">Predict next word</div>
+            Enhance your writing efficiency with intelligent word suggestions. 
+            This feature uses machine learning models to predict the next word based on the context of your text.
+        </p>
+
+        <p>
+            <div style="font-weight: bold; color: rgb(0, 0, 0);">Chatbot</div>
+            Engage with an AI assistant for answers, task help, or casual conversation. 
+            TuanGPT’s chatbot is always ready to assist.
+        </p>
+        <p>
+            <div style="font-weight: bold; color: rgb(0, 0, 0);">Resume screening</div>
+            Simplify recruitment by analyzing and evaluating resumes automatically. 
+            This feature helps HR professionals identify top candidates quickly.
+        </p>
+    </div>
+    <div align="right" style="margin-top: 20px; margin-right: 20px;" class="home-image">
+        <img src="{{ url_for('static', filename='images/tuangpt.png') }}" alt="predict next word">
+    </div>
+</div>
+{% endblock %}

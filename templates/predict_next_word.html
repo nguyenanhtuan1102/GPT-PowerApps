@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+
+{% block title %}Predict Next Word{% endblock %}
+
+{% block content %}
+<div class="predict-container">
+    <h1>PREDICT NEXT WORD</h1>
+    <form action="{{ url_for('predict_next_word')}}" method="post">
+        <textarea name="user_input_pwn" class="input-field" placeholder="Type your text here"></textarea>
+        <br>
+        <button type="submit" class="submit-button">Submit</button>
+    </form>
+    <p>
+        <span style="color: #0a7e2c; font-weight: bold; font-size: 20px;">{{ text_pnw }}</span>
+    </p>
+</div>
+{% endblock %}

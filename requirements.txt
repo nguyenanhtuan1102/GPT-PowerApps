@@ -1,0 +1,4 @@
+flask
+ipykernel
+google-generativeai
+PyMuPDF
