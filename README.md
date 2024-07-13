@@ -49,4 +49,6 @@ TuanGPT - GPT PowerApps is an innovative project designed to leverage the capabi
   ![image](https://github.com/user-attachments/assets/5ecd703f-4b0b-472e-bb14-d8016337a18c)
 
 ## Conclusion
-TuanGPT - GPT PowerApps demonstrates the practical applications of AI in enhancing user experience and automating tasks. The Predict Next Word tool aids in writing efficiency, the QA Chatbot provides quick information retrieval, and the Resume Screening tool simplifies the hiring process. By leveraging Python Flask for development and AWS services for deployment, this project achieves scalability, reliability, and user satisfaction.
+TuanGPT-GPTPowerApps showcases the transformative power of AI in elevating user experiences and streamlining workflows. With the **Predict Next Word** tool, users can supercharge their writing efficiency, effortlessly predicting what comes next in their sentences. The **QA Chatbot** is a swift and reliable information companion, delivering instant answers and enhancing user interaction. Meanwhile, the **Resume Screening** tool revolutionizes the hiring process, making it smoother and more efficient for recruiters.
+
+This innovative project, developed using PythonFlask and deployed through AWSServices, ensures top-notch scalability and reliability. By harnessing the power of these technologies, **TuanGPT-GPTPowerApps** guarantees user satisfaction and sets a new standard for practical AI applications in various domains.
