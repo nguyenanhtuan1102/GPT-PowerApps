@@ -52,3 +52,11 @@ TuanGPT - GPT PowerApps is an innovative project designed to leverage the capabi
 TuanGPT-GPTPowerApps showcases the transformative power of AI in elevating user experiences and streamlining workflows. With the **Predict Next Word** tool, users can supercharge their writing efficiency, effortlessly predicting what comes next in their sentences. The **QA Chatbot** is a swift and reliable information companion, delivering instant answers and enhancing user interaction. Meanwhile, the **Resume Screening** tool revolutionizes the hiring process, making it smoother and more efficient for recruiters.
 
 This innovative project, developed using PythonFlask and deployed through AWSServices, ensures top-notch scalability and reliability. By harnessing the power of these technologies, **TuanGPT-GPTPowerApps** guarantees user satisfaction and sets a new standard for practical AI applications in various domains.
+
+## Try out my project
+
+- **Way 1**: Check out my project [GPT-PowerApps](http://gpt-powerapps.ap-southeast-1.elasticbeanstalk.com/resume-screening)
+
+- **Way 2**: Scan my QR Code
+
+  ![qrcode_gpt-powerapps ap-southeast-1 elasticbeanstalk com](https://github.com/user-attachments/assets/8d514684-7e35-494f-915c-18516f162550)
