@@ -1,4 +1,4 @@
-# GPT PowerApps: TuanGPT
+# TuanGPT - The GPT PowerApps
 
 ![image](https://github.com/user-attachments/assets/2523e0e0-ff7d-4d8c-b71d-6260e7a5f193)
 
