@@ -76,15 +76,12 @@ def resume_screening():
             return "No selected file"
         if file and file.filename.endswith('.pdf'):
             pdf_content = extract_text_from_pdf(file)
-            role_rs = model.generate_content(f"Screen this resume: {pdf_content}. What is job position of this resume. Just write the answer. Don't format anything. Capitalize the first letter of the word.")
-            text_role_rs = role_rs.text
-
-            name_rs = model.generate_content(f"Screen this resume: {pdf_content}. What is the name of applicant. Just write the answer. Don't format anything. Capitalinze the first letter of each word.")
-            text_name_rs = name_rs.text
-
-            email_rs = model.generate_content(f"Screen this resume: {pdf_content}. What is the email of applicant. Just write the answer. Don't format anything.")
-            text_email_rs = email_rs.text
-
+            rs = model.generate_content(f"Screen this resume: {pdf_content}. What is job position, name of applicant, email of this resume. Just write the answer. Don't format anything. Capitalize the first letter of the word. Example: 'Software Engineer, John Doe, jogndoe@gmail.com'")
+            text_rs = rs.text
+            split_strings = text_rs.split(", ")
+            text_role_rs = split_strings[0]
+            text_name_rs = split_strings[1]
+            text_email_rs = split_strings[2]
             return render_template('resume_screening.html', text_name_rs=text_name_rs, text_email_rs=text_email_rs, text_role_rs=text_role_rs)
     return render_template('resume_screening.html')
 
