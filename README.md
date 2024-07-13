@@ -10,16 +10,16 @@ TuanGPT - GPT PowerApps is an innovative project designed to leverage the capabi
 ## Project Overview
 
 ### 1. Predict next word
-- Objective: The Predict Next Word tool aims to provide users with a predictive text feature that suggests the next word in a sentence based on the input provided.
-- Implementation: Utilizing Gemini pro language model, the tool analyzes the context of the input text and predicts the most likely next word. This feature is particularly useful for writing assistance and enhancing user productivity.
-- User Interaction: Users input a partial sentence, and the tool generates a prediction for the next word, which can then be accepted or modified by the user.
+- **Objective**: The Predict Next Word tool aims to provide users with a predictive text feature that suggests the next word in a sentence based on the input provided.
+- **Implementation**: Utilizing Gemini pro language model, the tool analyzes the context of the input text and predicts the most likely next word. This feature is particularly useful for writing assistance and enhancing user productivity.
+- **User Interaction**: Users input a partial sentence, and the tool generates a prediction for the next word, which can then be accepted or modified by the user.
 
 ![image](https://github.com/user-attachments/assets/39025649-048d-4f8e-a0e0-99db3f9db6b5)
 
 ### 2. Chatbot
-- Objective: The QA Chatbot is designed to answer short questions posed by users, leveraging the natural language understanding capabilities of Gemini pro.
-- Implementation: The chatbot processes user queries, searches for relevant information within its trained dataset, and provides concise and accurate answers. This tool is beneficial for quick information retrieval and customer support applications.
-- User Interaction: Users type a question into the chatbot interface, and the bot responds with a well-formulated answer, simulating a conversational experience.
+- **Objective**: The QA Chatbot is designed to answer short questions posed by users, leveraging the natural language understanding capabilities of Gemini pro.
+- **Implementation**: The chatbot processes user queries, searches for relevant information within its trained dataset, and provides concise and accurate answers. This tool is beneficial for quick information retrieval and customer support applications.
+- **User Interaction**: Users type a question into the chatbot interface, and the bot responds with a well-formulated answer, simulating a conversational experience.
 
 
 ![image](https://github.com/user-attachments/assets/99f1288e-24a1-493d-99e1-1cc41797a85d)
