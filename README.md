@@ -1,6 +1,6 @@
 # TuanGPT - The GPT PowerApps
 
-![image](https://github.com/user-attachments/assets/2523e0e0-ff7d-4d8c-b71d-6260e7a5f193)
+![gpt](https://github.com/user-attachments/assets/a20c02d1-d5e8-4bd4-b730-78d01b3d9669)
 
 ## Introduction
 TuanGPT - GPT PowerApps is an innovative project designed to leverage the capabilities of natural language processing (NLP) through the integration of three main tools: Predict Next Word, QA Chatbot, and Resume Screening. This project is developed using Python Flask for the backend, HTML and CSS for the frontend, and deployed using AWS CodePipeline and AWS Beanstalk. The purpose of this report is to present the design, development, and deployment processes of TuanGPT - GPT PowerApps.
