@@ -14,7 +14,7 @@ TuanGPT - GPT PowerApps is an innovative project designed to leverage the capabi
 - **Implementation**: Utilizing Gemini pro language model, the tool analyzes the context of the input text and predicts the most likely next word. This feature is particularly useful for writing assistance and enhancing user productivity.
 - **User Interaction**: Users input a partial sentence, and the tool generates a prediction for the next word, which can then be accepted or modified by the user.
 
-![image](https://github.com/user-attachments/assets/39025649-048d-4f8e-a0e0-99db3f9db6b5)
+  ![image](https://github.com/user-attachments/assets/39025649-048d-4f8e-a0e0-99db3f9db6b5)
 
 ### 2. Chatbot
 - **Objective**: The QA Chatbot is designed to answer short questions posed by users, leveraging the natural language understanding capabilities of Gemini pro.
@@ -22,14 +22,14 @@ TuanGPT - GPT PowerApps is an innovative project designed to leverage the capabi
 - **User Interaction**: Users type a question into the chatbot interface, and the bot responds with a well-formulated answer, simulating a conversational experience.
 
 
-![image](https://github.com/user-attachments/assets/99f1288e-24a1-493d-99e1-1cc41797a85d)
+  ![image](https://github.com/user-attachments/assets/99f1288e-24a1-493d-99e1-1cc41797a85d)
 
 ### 3. Resume screening
 - **Objective**: The Resume Screening tool automates the extraction of key information from resumes, such as the candidate's name, email, and job position.
 - **Implementation**: By parsing the content of uploaded resume files, the tool identifies and extracts relevant data points. This feature streamlines the hiring process by quickly sifting through large volumes of resumes to find suitable candidates.
 - **User Interaction**: Users upload a resume file, and the tool displays the extracted information, making it easier for HR personnel to review and manage candidate details.
 
-![image](https://github.com/user-attachments/assets/e02ad923-a7e3-4094-a39a-f2de81c9a6b7)
+  ![image](https://github.com/user-attachments/assets/e02ad923-a7e3-4094-a39a-f2de81c9a6b7)
 
 ## Development
 - **Backend Development**: The backend is developed using Python Flask, which provides a robust framework for handling HTTP requests and managing the logic of the application.
