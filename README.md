@@ -55,7 +55,7 @@ This innovative project, developed using PythonFlask and deployed through AWSSer
 
 ## Try out my project
 
-- **Way 1**: Check out my project [GPT-PowerApps](http://gpt-powerapps.ap-southeast-1.elasticbeanstalk.com/resume-screening)
+- **Way 1**: Check out my project [GPT-PowerApps](http://gpt-powerapps.ap-southeast-1.elasticbeanstalk.com/)
 
 - **Way 2**: Scan my QR Code
 
