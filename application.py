@@ -2,7 +2,6 @@ from flask import Flask, render_template, request, redirect, url_for, flash
 import google.generativeai as genai
 from google.generativeai.types import HarmCategory, HarmBlockThreshold
 import fitz
-<<<<<<< HEAD
 import os
 from dotenv import load_dotenv
 
@@ -11,7 +10,6 @@ app = application
 
 load_dotenv()
 genai.configure(api_key=os.getenv("API_KEY"))
-=======
 from dotenv import load_dotenv
 import os
 
@@ -20,7 +18,6 @@ app = application
 load_dotenv()
 
 genai.configure(api_key=os.getenv("GPT_APP_KEY"))
->>>>>>> ae842fef6249f0701ee442df8ff79830bef1d3d0
 generation_config = {
         "temperature": 0.7,
         "top_p": 1,
