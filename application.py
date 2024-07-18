@@ -10,14 +10,7 @@ app = application
 
 load_dotenv()
 genai.configure(api_key=os.getenv("API_KEY"))
-from dotenv import load_dotenv
-import os
 
-application = Flask(__name__)
-app = application
-load_dotenv()
-
-genai.configure(api_key=os.getenv("GPT_APP_KEY"))
 generation_config = {
         "temperature": 0.7,
         "top_p": 1,
