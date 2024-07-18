@@ -2,12 +2,14 @@ from flask import Flask, render_template, request, redirect, url_for, flash
 import google.generativeai as genai
 from google.generativeai.types import HarmCategory, HarmBlockThreshold
 import fitz
+from dotenv import load_dotenv
+import os
 
 application = Flask(__name__)
 app = application
-app.config["SECRET_KEY"] = "tuanmould"
+load_dotenv()
 
-genai.configure(api_key="AIzaSyDFuMIhmYjisV5vNgN9FO0PtKiu698PO3k")
+genai.configure(api_key=os.getenv("GPT_APP_KEY"))
 generation_config = {
         "temperature": 0.7,
         "top_p": 1,
@@ -38,7 +40,7 @@ safety_settings = [
     },
 ]
 
-model = genai.GenerativeModel(model_name = "models/gemini-1.5-pro",
+model = genai.GenerativeModel(model_name = "models/gemini-pro",
                                    generation_config = generation_config,
                                    safety_settings = safety_settings)
 
