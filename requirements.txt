@@ -2,3 +2,4 @@ flask
 ipykernel
 google-generativeai
 PyMuPDF
+python-dotenv
