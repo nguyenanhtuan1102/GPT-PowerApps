@@ -7,7 +7,7 @@ application = Flask(__name__)
 app = application
 app.config["SECRET_KEY"] = "tuanmould"
 
-genai.configure(api_key="AIzaSyC31f9En-DA_k30drF4iZSoQYe0GNjaJJo")
+genai.configure(api_key="AIzaSyDFuMIhmYjisV5vNgN9FO0PtKiu698PO3k")
 generation_config = {
         "temperature": 0.7,
         "top_p": 1,
